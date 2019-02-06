@@ -9,7 +9,9 @@
     "url": "git+https://github.com/gamephreak/PSV.git"
   },
   "keywords": [
-    "Pokémon", "Showdown", "View"
+    "Pokémon",
+    "Showdown",
+    "View"
   ],
   "author": "Kirk Scheibelhut",
   "license": "MIT",

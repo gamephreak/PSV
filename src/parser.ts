@@ -1,5 +1,5 @@
 /* tslint:disable:switch-default prefer-const */
-import {ID, toID} from 'pkmn';
+import {ID, toID} from './pkmn';  // TODO
 import * as template from './data/template.json';
 
 const TEMPLATE: {[id: string]: {[templateName: string]: string}} = template;
