@@ -1,0 +1,42 @@
+{
+  "name": "PSV",
+  "version": "0.0.1",
+  "description": "Pokémon Showdown View logic",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamephreak/PSV.git"
+  },
+  "keywords": [
+    "Pokémon", "Showdown", "View"
+  ],
+  "author": "Kirk Scheibelhut",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gamephreak/PSV/issues"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.12",
+    "coveralls": "^3.0.2",
+    "gts": "^0.9.0",
+    "jest": "^23.6.0",
+    "source-map-support": "^0.5.9",
+    "ts-jest": "^23.10.5",
+    "typescript": "~3.1.0"
+  },
+  "scripts": {
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "fix": "gts fix",
+    "test": "jest",
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile",
+    "posttest": "npm run check"
+  }
+}
