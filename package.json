@@ -1,12 +1,12 @@
 {
-  "name": "PSV",
+  "name": "@pkmn.cc/view",
   "version": "0.0.1",
-  "description": "Pokémon Showdown View logic",
+  "description": "Pokémon Showdown view-related logic",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gamephreak/PSV.git"
+    "url": "git+https://github.com/pkmn-cc/view.git"
   },
   "keywords": [
     "Pokémon",
@@ -16,7 +16,7 @@
   "author": "Kirk Scheibelhut",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/gamephreak/PSV/issues"
+    "url": "https://github.com/pkmn-cc/view/issues"
   },
   "dependencies": {
     "@types/node": "^10.12.18"
