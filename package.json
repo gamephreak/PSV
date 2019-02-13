@@ -19,7 +19,9 @@
     "url": "https://github.com/pkmn-cc/view/issues"
   },
   "dependencies": {
-    "@types/node": "^10.12.18"
+    "@types/node": "^10.12.18",
+    "@pkmn.cc/data": "file:../data",
+    "@pkmn.cc/client": "file:../client"
   },
   "devDependencies": {
     "@types/jest": "^23.3.12",
